@@ -20,4 +20,10 @@ router.post('/', async (req, res) => {
   res.redirect('/')
 })
 
+router.get('/food_info', async (req, res) => {
+  const viewData = await db.getUsers()
+  console.log({ viewData })
+  res.render('foodInfo', { viewData })
+})
+
 export default router
