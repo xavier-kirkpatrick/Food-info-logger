@@ -8,4 +8,16 @@ router.get('/', (req, res) => {
   res.render('index')
 })
 
+router.post('/', async (req, res) => {
+  const { name, phone, allergy_details } = req.body
+  const newUser = {
+    name,
+    phone,
+    food_preference: allergy_details,
+  }
+  await db.addUser(newUser)
+
+  res.redirect('/')
+})
+
 export default router
