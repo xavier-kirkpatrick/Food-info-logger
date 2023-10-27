@@ -1,9 +1,3 @@
-import canvasConfetti from 'https://cdn.skypack.dev/canvas-confetti'
-
-function confetti() {
-  document.getElementById('#submit', canvasConfetti()).onclick
-}
-
 function navbar() {
   document.getElementById('myDropdown').classList.toggle('show')
 }
