@@ -1,14 +1,14 @@
-<h2>Food Allergy Details</h2>
-<ol>
+<div class="info-body">
+<h2 class="info-header">Food Allergy Details</h2>
+<div class="food-container">
 {{#each viewData}}
-<li class="info">
   <div class="food-info">
-    <p>name: {{name}}</p>
-<p>food preference: {{food_preference}}</p>
-
-  </div>
-</li>
+    <h3>{{name}}</h3>
+    
+    <p>{{food_preference}}</p>
+    
+ </div>
 {{/each}}
+</div>
 
-</ol>
-
+</div>
