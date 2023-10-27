@@ -4,11 +4,11 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  background-color: whitesmoke;
+  background-color: transparent;
 }
 
 .info-header {
-  color: black;
+  color: whitesmoke;
   font-family: Trebuchet MS;
   font-weight: bold;
   text-align: center;
@@ -27,7 +27,10 @@
   flex-direction: column;
   align-items: center;
   margin: 50px;
-  background-color: antiquewhite;
+  background-color: gray;
   padding: 20px;
   width: 150px;
+  opacity: 0.8;
+  color: white;
+  font-weight: bold;
 }
