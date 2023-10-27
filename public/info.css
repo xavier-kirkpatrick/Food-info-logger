@@ -1,0 +1,33 @@
+.info-body {
+  margin: 0px;
+  margin-bottom: 0px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: whitesmoke;
+}
+
+.info-header {
+  color: black;
+  font-family: Trebuchet MS;
+  font-weight: bold;
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 0vh;
+}
+
+.food-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.food-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px;
+  background-color: antiquewhite;
+  padding: 20px;
+  width: 150px;
+}
