@@ -1,5 +1,47 @@
 body {
   background-color: aqua;
+  font-family: 'Raleway', sans-serif;
+}
+
+#form-display {
+  font-size: 18px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 70px;
+  width: 150px;
+  border-radius: 10px 20px;
+  border: 10px solid white;
+  background-color: sandybrown;
+}
+
+#add-button {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #3498db;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#form-input {
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 5px 0;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+#title {
+  text-align: center;
+  font-size: 30px;
 }
 
 #background-video {
