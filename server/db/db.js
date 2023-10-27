@@ -12,3 +12,7 @@ export async function getUsers() {
 export async function getUser(id) {
   return db('users').where('id', id).first()
 }
+
+export async function addUser(newUser) {
+  return db('users').insert(newUser)
+}
