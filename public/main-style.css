@@ -1,6 +1,14 @@
 body {
   background-color: aqua;
+  color: white;
   font-family: 'Raleway', sans-serif;
+}
+
+h2 {
+  padding-top: 16px;
+}
+label {
+  font-weight: bold;
 }
 
 #form-display {
