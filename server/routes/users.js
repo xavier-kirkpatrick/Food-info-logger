@@ -23,7 +23,7 @@ router.post('/', async (req, res) => {
 router.get('/food_info', async (req, res) => {
   const viewData = await db.getUsers()
   // console.log({ viewData })
-  res.render('foodInfo', viewData)
+  res.render('foodInfo', { viewData })
   // res.send('Hello')
 })
 
